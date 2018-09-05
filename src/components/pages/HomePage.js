@@ -10,6 +10,7 @@ import redux from '../../images/redux-small.png';
 import bootstrap from '../../images/bootstrap4-small.png';
 import sass from '../../images/sass-small.png';
 import webpack from '../../images/webpack-small.png';
+import { Button } from 'semantic-ui-react';
 
 
 // COMPONENT
@@ -21,6 +22,7 @@ const HomePage = () => (
             <p className="lead text-center">The essential elements required to start building apps using React, React Router, Redux, Bootstrap 4, SASS, and Webpack</p>
             <hr className="my-4" />
             <div className="text-center">
+                <Button content='Click Here' />
                 <img className="m-3" height="50" src={react} alt="React" />
                 <img className="m-3" height="50" src={reactrouter} alt="React Router" />
                 <img className="m-3" height="50" src={redux} alt="Redux" />

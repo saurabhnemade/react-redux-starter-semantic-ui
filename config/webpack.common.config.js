@@ -39,13 +39,12 @@ const config = {
                             loader: 'sass-loader'
                         }
                     ]
-                })                
-                //exclude: /node_modules/
+                }),
+                //exclude: '/node_modules/semantic-ui-css/'
             },
             {
-                test: /\.svg|.png|.jpg$/,
-                loader: 'url-loader',
-                exclude: /node_modules/
+              test: /\.(png|jpg|ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+              loader: 'file-loader'
             }
         ]
     },

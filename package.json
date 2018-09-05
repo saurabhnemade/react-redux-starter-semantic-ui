@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-starter",
+  "name": "react-redux-starter-semantic-ui",
   "version": "1.0.0",
   "description": "A basic template that consists of the essential elements that are required to start building a React application using Redux",
   "scripts": {
@@ -42,14 +42,14 @@
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.6.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.6",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^2.30.1",
     "live-server": "^1.2.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.0",
-    "url-loader": "^0.6.2",
+    "url-loader": "^1.1.1",
     "webpack": "^3.11.0",
     "webpack-bundle-analyzer": "^2.10.0",
     "webpack-dashboard": "^1.1.1",
@@ -67,6 +67,8 @@
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-promise-middleware": "^5.0.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.3"
   }
 }
